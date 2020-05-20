@@ -1,0 +1,7 @@
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\bin\Debug\data.exe.config
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\bin\Debug\data.exe
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\bin\Debug\data.pdb
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\obj\Debug\data.csprojAssemblyReference.cache
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\obj\Debug\data.csproj.CoreCompileInputs.cache
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\obj\Debug\data.exe
+C:\Users\Avatar\Desktop\Aulas\Exercicios string\data\obj\Debug\data.pdb
