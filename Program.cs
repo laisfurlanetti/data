@@ -13,13 +13,25 @@ namespace data
             int dia;
             int mes;
             int ano;
-            
+
+
             Console.Write("Digite o dia que voce nasceu: ");
             dia = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Digite o mes que voce nasceu: ");
             mes = Convert.ToInt32(Console.ReadLine());
 
+            Console.Write("Digite o ano que voce nasceu: ");
+            ano = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Voce nasceu em " + dia + " de " + ObterListaMes()[mes - 1] + " de " + ano);
+
+            Console.ReadLine();        
+
+
+        }
+        public static string[] ObterListaMes()
+        {
             string[] listmes = new string[12];
             listmes[0] = "Janeiro";
             listmes[1] = "Fevereiro";
@@ -33,17 +45,7 @@ namespace data
             listmes[9] = "Outubro";
             listmes[10] = "Novembro";
             listmes[11] = "Dezembro";
-
-            
-
-            Console.Write("Digite o ano que voce nasceu: ");
-            ano = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Voce nasceu em " + dia + " de " + listmes[mes - 1] + " de " + ano);
-
-            Console.ReadLine();        
-
-
+            return listmes;
         }
     }
 }
